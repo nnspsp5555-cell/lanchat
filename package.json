@@ -1,0 +1,9 @@
+{
+  "name": "lanchat-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic RTL local Wi-Fi chat starter for a trusted LAN. No app-level encryption.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "check": "node --check server.js && node --check public/app.js" },
+  "dependencies": { "express": "^4.21.2", "multer": "^1.4.5-lts.1", "ws": "^8.18.0" }
+}
